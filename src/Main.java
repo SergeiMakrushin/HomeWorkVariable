@@ -48,27 +48,27 @@ public class Main {
 
 
         System.out.println("Задача_5");
-        int MashaSalary=67760;
-        int DenisSalary=83690;
-        int KristinaSalary=76230;
+        int mashaSalary=67760;
+        int denisSalary=83690;
+        int kristinaSalary=76230;
 
-        double NewMashaSalary= MashaSalary*1.1;
-        System.out.println("Маша теперь получает "+NewMashaSalary+" рублей");
-        float NewDenisSalary= (float) (DenisSalary*1.1);
-        System.out.println("Денис теперь получает "+NewDenisSalary+" рублей");
-        double NewKristinaSalary=KristinaSalary*1.1;
-        System.out.println("Кристина теперь получает "+NewKristinaSalary+" рублей");
+        double newMashaSalary= mashaSalary*1.1;
+        System.out.println("Маша теперь получает "+newMashaSalary+" рублей");
+        float newDenisSalary= (float) (denisSalary*1.1);
+        System.out.println("Денис теперь получает "+newDenisSalary+" рублей");
+        double newKristinaSalary=kristinaSalary*1.1;
+        System.out.println("Кристина теперь получает "+newKristinaSalary+" рублей");
 
-        double changeInAnnualSalary_Masha=(NewMashaSalary-MashaSalary)*12;
+        double changeInAnnualSalary_Masha=(newMashaSalary-mashaSalary)*12;
         System.out.println("Годовой доход Маши вырос на "+changeInAnnualSalary_Masha+" рублей");
-        double changeInAnnualSalary_Denis=(NewDenisSalary-DenisSalary)*12;
+        double changeInAnnualSalary_Denis=(newDenisSalary-denisSalary)*12;
         System.out.println("Годовой доход Дениса вырос на "+changeInAnnualSalary_Denis+" рублей");
-        double changeInAnnualSalary_Kristina=(NewKristinaSalary-KristinaSalary)*12;
+        double changeInAnnualSalary_Kristina=(newKristinaSalary-kristinaSalary)*12;
         System.out.println("Годовой доход Кристины вырос на "+changeInAnnualSalary_Kristina+" рублей");
 
-        System.out.println("Маша теперь получает "+NewMashaSalary+" рублей. Годовой доход вырос на "+changeInAnnualSalary_Masha+" рублей");
-        System.out.println("Денис теперь получает "+NewDenisSalary+" рублей. Годовой доход вырос на "+changeInAnnualSalary_Denis+" рублей");
-        System.out.println("Кристина теперь получает "+NewKristinaSalary+" рублей. Годовой доход вырос на "+changeInAnnualSalary_Kristina+" рублей");
+        System.out.println("Маша теперь получает "+newMashaSalary+" рублей. Годовой доход вырос на "+changeInAnnualSalary_Masha+" рублей");
+        System.out.println("Денис теперь получает "+newDenisSalary+" рублей. Годовой доход вырос на "+changeInAnnualSalary_Denis+" рублей");
+        System.out.println("Кристина теперь получает "+newKristinaSalary+" рублей. Годовой доход вырос на "+changeInAnnualSalary_Kristina+" рублей");
 
 
 
